@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
   <div class="navbar">
-    <a href="#" class="nav-item">Home</a>
-    <a href="#" class="nav-item">Products</a>
-    <a href="#" class="nav-item">Pricing</a>
-    <a href="#" class="nav-item">Contact</a>
+    <div class="nav-left">
+      <span class="company-name">For Real Finance's</span>
+    </div>
+    <div class="nav-right">
+      <a href="#" class="nav-item">Home</a>
+      <a href="#" class="nav-item">Products</a>
+      <a href="#" class="nav-item">Pricing</a>
+      <a href="#" class="nav-item">Contact</a>
+    </div>
   </div>
-  
+
   <div class="container">
     <div class="card">
       <h2>Dashboard</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Lorem ipsum dolor sit amet, consectetur adipiscing elitelit.</p>
       <button class="more-info">More Info</button>
     </div>
     <div class="card">
       <h2>Budget</h2>
-      <p>Curabitur in mauris varius, volutpat diam id, dapibus quam.</p>
+      <p>Curabitur in mauris varius, volutpat diam id, dapibus quam. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit</p>
       <button class="more-info">More Info</button>
     </div>
     <div class="card">
       <h2>Checkbooks</h2>
-      <p>Nulla vel elit eu nisl consectetur tristique.</p>
+      <p>Nulla vel elit eu nisl consectetur tristique.Curabitur in mauris varius, volutpat diam id, dapibus quam. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+        ipsum dolor sit amet, consectetur adipiscing eli</p>
       <button class="more-info">More Info</button>
     </div>
     <div class="card">
       <h2>Pricing</h2>
-      <p>Proin a nisi quis metus fermentum eleifend.</p>
+      <p>Proin a nisi quis metus fermentum eleifend.Curabitur in mauris varius, volutpat diam id, dapibus quam. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+        ipsum dolor sit amet, consectetur adipiscing eli</p>
       <button class="more-info">More Info</button>
     </div>
   </div>
 </body>
+
 </html>

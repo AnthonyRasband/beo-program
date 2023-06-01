@@ -1,31 +1,44 @@
+body {
+  background-color: #F9F1CF;
+}
+
 .navbar {
-  background-color: yellow;
-  padding: 10px;
+  background-color: #EAA12D;
+  padding: 20px;
   font-family: sans-serif;
+  overflow: auto;
+}
+
+.company-name {
+  color: white;
+  float: left;
+}
+
+.nav-right {
+  float: right;
 }
 
 .nav-item {
-  float: right;
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-family: sans-serif;
 }
 
 .card {
-  float: left;
-  width: 30%;
+  flex-grow: 1;
+  width: calc(33.33% - 20px);
   margin: 10px;
   padding: 20px;
-  border: 1px solid yellow;
+  border: 1px solid #EAA12D;
   border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: white;
   font-family: sans-serif;
 }
 
@@ -38,10 +51,22 @@
 }
 
 .more-info {
-  background-color: yellow;
-  color: black;
+  background-color: #EAA12D;
+  color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
 }
