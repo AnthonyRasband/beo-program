@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" class="nav-item">Home</a>
+    <a href="#" class="nav-item">Products</a>
+    <a href="#" class="nav-item">Pricing</a>
+    <a href="#" class="nav-item">Contact</a>
+  </div>
+  
+  <div class="container">
+    <div class="card">
+      <h2>Dashboard</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button class="more-info">More Info</button>
+    </div>
+    <div class="card">
+      <h2>Budget</h2>
+      <p>Curabitur in mauris varius, volutpat diam id, dapibus quam.</p>
+      <button class="more-info">More Info</button>
+    </div>
+    <div class="card">
+      <h2>Checkbooks</h2>
+      <p>Nulla vel elit eu nisl consectetur tristique.</p>
+      <button class="more-info">More Info</button>
+    </div>
+    <div class="card">
+      <h2>Pricing</h2>
+      <p>Proin a nisi quis metus fermentum eleifend.</p>
+      <button class="more-info">More Info</button>
+    </div>
+  </div>
+</body>
+</html>
