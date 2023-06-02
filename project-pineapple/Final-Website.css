@@ -1,0 +1,133 @@
+body {
+    background: black;
+    font-family: 'Geologica', sans-serif;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  
+    color: white;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))"green-vegetables-on-brown-wooden-chopping-board-3952047.jpg";
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.tabs {
+    color: white;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    margin-right: 5%;
+    ;
+}
+
+.tabs a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+h4 {
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+}
+
+.title {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 300px;
+    top: 55px;
+    background: transparent;
+    position: absolute;
+    border-top: 2px white solid;
+}
+
+.title h1 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-size: 100px;
+    left: 40%;
+    color: white;
+}
+
+.title h3 {
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    border-top: 2px solid white;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+}
+
+.tabs img {
+    display: block;
+    width: 100%;
+}
+
+.background img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    color: white;
+}
+
+#one {
+    width: 66.66%;
+    background-color: black;
+    color: white;
+}
+
+#bread {
+    width: 33.33%;
+    background-color: black;
+}
+
+#two {
+    width: 66.66%;
+
+    background-color: rgba(48, 48, 48, 0.452);
+    color: white;
+}
+
+#pineapple {
+    width: 33.33%;
+}
+
+#pasta {
+    width: 33.33%;
+}
+
+#three {
+    width: 66.66%;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
