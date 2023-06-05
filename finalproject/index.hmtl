@@ -13,7 +13,7 @@
     </div>
     <div id="mainContainer">
     </div>
-    <div class="inputBottomBar">
+    <div class="inputbottom ">
         <form id="commentForm">
             <input id="displayNameInput" class="displayName" placeholder="Display Name">
             <input id="commentInput" class="comment" placeholder="Comment">
