@@ -1,0 +1,17 @@
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .row {
+    white-space: nowrap;
+  }
+  
+  .box.active {
+    background-color: black;
+  }
+  
