@@ -30,8 +30,7 @@ $(document).ready(function() {
       }
       $('#nameInput').val('');
       $('#commentInput').val('');
-  });// lining up cards with prepend
-
+  });
   $(document).on('click', '.editButton', function() {
       const card = $(this).closest('.card');
       const commentText = card.find('.comment').text();

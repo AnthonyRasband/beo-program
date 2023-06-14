@@ -26,22 +26,22 @@ body {
     border-radius: 3px;
 }
 .inputbottom .displayName {
-width: 110px;
+width: 10%;
 height: 20px;
 justify-content: flex-end;
 margin-top: 10px;
 }
 .inputbottom .comment {
     height: 20px;
-    width:1200px;
+    width:75%;
     justify-content: center;
     margin-left:10px;
     margin-top: 10px;
 }
 .inputbottom .submit {
     height: 25px;
-    width: 75px;
-    margin-left: 10px;
+    width: 5%;
+    margin-left: 5px;
     border-style: none;
     background-color: transparent;
     margin-top: 10px;
@@ -60,7 +60,7 @@ button {
 
 }
 .card {
-    background-color: #ffffff;
+    background-color: #ffffffce;
     margin-top: 20px;
     padding-top: 20px;
     width: 90%;
